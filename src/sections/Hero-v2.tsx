@@ -334,13 +334,22 @@ export default function PremiumHero() {
                 }}
                 className="mt-12 flex flex-wrap items-center justify-center gap-5"
               >
-                <button className="rounded-2xl bg-gradient-to-r from-purple-500 to-cyan-500 px-8 py-4 font-medium text-white shadow-[0_0_50px_rgba(139,92,246,0.4)] transition-all duration-500 hover:scale-105">
-                  Explore My Work
-                </button>
+                <a href="#projects">
+                  <button className="rounded-2xl bg-gradient-to-r from-purple-500 to-cyan-500 px-8 py-4 font-medium text-white shadow-[0_0_50px_rgba(139,92,246,0.4)] transition-all duration-500 hover:scale-105">
+                    Explore My Work
+                  </button>
+                </a>
 
-                <button className="rounded-2xl border border-white/15 bg-[#0b0b0f]/80 px-8 py-4 text-white backdrop-blur-xl transition-all duration-500 hover:bg-white/[0.08]">
-                  View Resume
-                </button>
+                <a
+                  href="/resume.pdf"
+                  download
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="rounded-2xl border border-white/15 bg-[#0b0b0f]/80 px-8 py-4 text-white backdrop-blur-xl transition-all duration-500 hover:bg-white/[0.08]">
+                    View Resume
+                  </button>
+                </a>
               </motion.div>
             </div>
           </motion.div>
