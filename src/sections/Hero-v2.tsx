@@ -131,10 +131,12 @@ export default function PremiumHero() {
     window.addEventListener("mousemove", handleMouseMove);
 
     return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener(
+        "mousemove",
+        handleMouseMove
+      );
     };
-  }, []);
-
+  }, [mouseX, mouseY]);
   return (
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#070707] px-6">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(139,92,246,0.16),transparent_35%)]" />
