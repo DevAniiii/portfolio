@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description:
       "Modern cinematic developer portfolio with scalable architecture, immersive UI systems, and advanced frontend engineering.",
 
-    url: "https://your-domain.vercel.app",
+    url: "https://ani-dev.vercel.app",
 
     siteName: "Anirban Portfolio",
 
@@ -58,10 +58,10 @@ export default function Home() {
 
     name: "Anirban",
 
-    url: "https://your-domain.vercel.app",
+    url: "https://ani-dev.vercel.app",
 
     image:
-      "https://your-domain.vercel.app/landing.png",
+      "https://ani-dev.vercel.app/landing.png",
 
     jobTitle: "Fullstack Developer",
 
@@ -90,7 +90,7 @@ export default function Home() {
 
     name: "Anirban Portfolio",
 
-    url: "https://your-domain.vercel.app",
+    url: "https://ani-dev.vercel.app",
 
     description:
       "Modern cinematic developer portfolio built with immersive UI systems and scalable architecture.",

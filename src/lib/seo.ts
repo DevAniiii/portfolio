@@ -8,7 +8,7 @@ export const siteConfig = {
 
   url:
     process.env.NEXT_PUBLIC_SITE_URL ||
-    "https://your-domain.vercel.app",
+    "https://ani-dev.vercel.app",
 
   ogImage: "/og-image.png",
 

@@ -42,7 +42,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    "https://your-domain.vercel.app"
+    "https://ani-dev.vercel.app"
   ),
 
   title: {
@@ -87,7 +87,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://your-domain.vercel.app",
+    url: "https://ani-dev.vercel.app",
 
     title:
       "Anirban | Fullstack Developer",
