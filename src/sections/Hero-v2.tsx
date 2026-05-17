@@ -294,7 +294,7 @@ export default function PremiumHero() {
                 }}
                 className="text-5xl font-black leading-[0.95] tracking-tight text-white md:text-7xl"
               >
-                Hello, I'm
+                Hello, I&apos;m
                 <br />
 
                 <span className="bg-gradient-to-r from-purple-400 via-cyan-300 to-cyan-400 bg-clip-text text-transparent">
