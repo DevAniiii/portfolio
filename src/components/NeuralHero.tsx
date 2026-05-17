@@ -50,17 +50,20 @@ export default function NeuralHero() {
   });
 
   useEffect(() => {
-    const handleMouse = (e: MouseEvent) => {
-      mouseX.set(e.clientX - window.innerWidth / 2);
-      mouseY.set(e.clientY - window.innerHeight / 2);
-    };
+  const handleMouseMove = (e: MouseEvent) => {
+    mouseX.set(e.clientX - window.innerWidth / 2);
+    mouseY.set(e.clientY - window.innerHeight / 2);
+  };
 
-    window.addEventListener("mousemove", handleMouse);
+  window.addEventListener("mousemove", handleMouseMove);
 
-    return () => {
-      window.removeEventListener("mousemove", handleMouse);
-    };
-  }, []);
+  return () => {
+    window.removeEventListener(
+      "mousemove",
+      handleMouseMove
+    );
+  };
+}, [mouseX, mouseY]);
 
   return (
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#070707] px-6">
