@@ -38,7 +38,7 @@ export const ContactSection = () => {
 
             <div className="mt-12 flex flex-col items-center justify-center gap-5 sm:flex-row">
               <a
-                href="mailto:yourmail@example.com"
+                href="mailto:anirbanbanerjee3112@gmail.com"
                 className="inline-flex items-center justify-center rounded-2xl bg-white px-7 py-4 text-sm font-semibold text-black transition-all duration-300 hover:scale-105"
               >
                 Send Email
